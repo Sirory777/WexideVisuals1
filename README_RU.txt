@@ -1,11 +1,13 @@
-{
-  "schemaVersion": 1,
-  "id": "wexidevisuals",
-  "version": "${version}",
-  "name": "WexideVisuals",
-  "description": "Client-side soup, hit, item and particle effects for WexideWorld.",
-  "authors": ["WexideWorld"],
-  "environment": "client",
-  "entrypoints": {"client": ["pw.wexide.visuals.WexideVisuals"]},
-  "depends": {"fabricloader": ">=0.16.10", "minecraft": "1.21.4", "java": ">=21", "fabric-api": "*"}
-}
+WexideVisuals 0.1.0 — исходный код клиентского мода Fabric для Minecraft Java 1.21.4.
+
+Функции: частицы при ударе, визуальный эффект использования супа, искры возле выброшенных предметов, аура игрока.
+V — включить/выключить все эффекты.
+B — переключить режимы: все / суп / удары / предметы / аура.
+
+Требуется Java 21, Fabric Loader, Fabric API, Gradle 8.12+.
+Сборка: gradle build
+После успешной сборки файл: build/libs/wexidevisuals-0.1.0.jar
+Установка: скопируйте jar и подходящий Fabric API в папку mods клиентского Minecraft 1.21.4.
+
+Это исходный проект; сборка и запуск на Minecraft 1.21.4 здесь не подтверждены.
+Никаких чит-функций и серверных преимуществ мод не добавляет.
